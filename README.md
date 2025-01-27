@@ -1,6 +1,6 @@
 # Inetum
 
-The architecture described involves an automated data pipeline that integrates AWS Lambda, Amazon S3, and a data warehouse solution like Redshift or Snowflake, all orchestrated through Apache Airflow.
+The architecture described involves an automated data pipeline that integrates AWS Lambda, Amazon S3, and a data warehouse solution like Redshift, all orchestrated through Apache Airflow.
 
 In this setup, the data processing workflow starts with AWS Lambda functions, which are triggered by Apache Airflow. These Lambda functions are responsible for fetching data from external sources, transforming it, and then saving it as Parquet files to Amazon S3. Each Lambda function corresponds to a specific data category, such as articles, blogs, or reports. These categories are processed separately, with each Lambda function handling the appropriate dataset.
 
