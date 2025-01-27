@@ -9,3 +9,4 @@ Once the data is stored in S3, Airflow kicks in to handle the next phase of the 
 This solution leverages the scalability and flexibility of AWS Lambda for data processing and transformation, while Airflow provides the orchestration layer to ensure smooth execution of tasks and data flows. With each data category having its own set of operations, the system is modular, allowing for easy extensions or modifications. The combination of these tools provides a robust, automated, and scalable pipeline to handle large volumes of data and ensure seamless integration with cloud data warehouses for analysis and reporting.
 
 
+![Descripción de la imagen](https://github.com/Cr7SIU/Inetum/blob/main/Architecture.PNG)
